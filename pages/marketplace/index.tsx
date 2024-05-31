@@ -20,7 +20,7 @@ export default function Home() {
                         <div className="w-full">
                             <h1
                                 style={{ lineHeight: 1.2 }}
-                                className="text-5xl md:text-5xl font-extrabold bg-gradient-to-r from-[#007aff] to-green-600 inline-block text-transparent bg-clip-text"
+                                className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-[#007aff] to-green-600 inline-block text-transparent bg-clip-text"
                             >
                                 All-in-one Enterprise Software
                             </h1>
