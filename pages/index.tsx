@@ -53,7 +53,7 @@ export default function Home() {
                 <div className="pb-5">
                   <h1 className="text-gray-600">
                     If you believe you need <span className="font-semibold italic">all-in-one enterprise solutions </span> for your organization,
-                    <span className="text-[#007aff]">2lifi</span> will be your choice.
+                    <span className="text-[#007aff] px-1">2lifi</span> will be your choice.
                   </h1>
                 </div>
                 <form>
