@@ -310,7 +310,7 @@ export default function Home() {
                 <img
                   src="https://tesfacoffee.com/img/t1.5f985145.jpg"
                   alt=""
-                  className="rounded-full w-16 h-16 rounded-xl"
+                  className="rounded-full w-16 h-16 rounded-4xl"
                 />
                 <div>
                   <h2 className="text-gray-900 text-lg">Tesfa Mergia</h2>
