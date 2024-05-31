@@ -310,7 +310,7 @@ export default function Home() {
                 <img
                   src="https://tesfacoffee.com/img/t1.5f985145.jpg"
                   alt=""
-                  className="rounded-full w-16 h-16 rounded-4xl"
+                  className="rounded-full w-16 h-16 rounded-full"
                 />
                 <div>
                   <h2 className="text-gray-900 text-lg">Tesfa Mergia</h2>
@@ -341,7 +341,7 @@ export default function Home() {
                 data-aos-duration="600"
                 src="https://tesfacoffee.com/img/t1.5f985145.jpg"
                 alt="calendly"
-                className="h-full w-full rounded shadow"
+                className="h-full w-full rounded-xl shadow"
               />
             </div>
           </div>
