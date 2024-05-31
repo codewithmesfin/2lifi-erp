@@ -367,7 +367,7 @@ export default function Home() {
               >
                 <div className="h-full rounded">
                   <div className="h-full flex items-center space-x-3">
-                    <img src={item.img} alt="" className="w-8 h-8 rounded-xl" />
+                    <img src={item.img} alt="" className="w-8 h-8 rounded-4xl" />
                     <div>
                       <h1 className="text-gray-800">
                         {item.title}
