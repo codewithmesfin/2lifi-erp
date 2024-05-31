@@ -236,7 +236,7 @@ export default function Home() {
                       </p>
                       <div className="mt-5 flex justify-between items-center space-x-3 md:space-x-10">
 
-                        <div className="w-full md:w-1/2 flex items-center space-x-1">
+                        <div className="w-full md:w-1/2 flex items-center space-x-2">
                           <CodeBracketIcon className="h-6 w-6" />
                           <h1 className="text-gray-900 font-bold">
                             {item.developer}
