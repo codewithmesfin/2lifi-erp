@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import Layout from "@/components/layout/layout";
 import { useEffect } from "react";
+import GotopButton from "@/components/gotoTopButton";
 
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -20,6 +21,7 @@ useEffect(() => {
     <Layout>
       <Component {...pageProps} />
       <ToastContainer />
+        <GotopButton/>
     </Layout>
   );
 }
