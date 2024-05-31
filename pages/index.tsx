@@ -5,12 +5,12 @@ import { ArrowTopRightOnSquareIcon, ChevronRightIcon, CodeBracketIcon } from "@h
 import { cards, modules, options, techStacks } from "@/data/homepage";
 import OnboardingSection from "@/components/onboardingSection";
 import { useRouter } from "next/router";
-const items = modules.splice(0, 6)
+
 
 
 export default function Home() {
   const navigator = useRouter()
-
+  const items = modules.splice(0, 6)
   return (
     <div>
       <section style={{ backgroundRepeat: "round" }}

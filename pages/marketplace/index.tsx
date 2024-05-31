@@ -5,7 +5,7 @@ import {ChevronRightIcon, CodeBracketIcon } from "@heroicons/react/24/outline";
 import { modules } from "@/data/homepage";
 import OnboardingSection from "@/components/onboardingSection";
 import { useRouter } from "next/router";
-const items = modules
+
 
 
 export default function Home() {
@@ -41,7 +41,7 @@ export default function Home() {
                 <div className="w-[90%] mx-auto py-10">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
                         {
-                            items.map((item, i) => <div
+                            modules.map((item, i) => <div
                                 key={item.title}
                             >
                                 <div
