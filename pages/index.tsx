@@ -310,7 +310,7 @@ export default function Home() {
                 <img
                   src="https://tesfacoffee.com/img/t1.5f985145.jpg"
                   alt=""
-                  className="rounded-full w-16 h-16"
+                  className="rounded-full w-16 h-16 rounded-xl"
                 />
                 <div>
                   <h2 className="text-gray-900 text-lg">Tesfa Mergia</h2>
@@ -367,7 +367,7 @@ export default function Home() {
               >
                 <div className="h-full rounded">
                   <div className="h-full flex items-center space-x-3">
-                    <img src={item.img} alt="" className="w-8 h-8 rounded-4xl" />
+                    <img src={item.img} alt="" className="w-8 h-8 rounded-xl" />
                     <div>
                       <h1 className="text-gray-800">
                         {item.title}
