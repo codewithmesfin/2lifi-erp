@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 
 export default function Home() {
   const navigator = useRouter()
-  const items = modules.splice(0, 6)
+
   return (
     <div>
       <section style={{ backgroundRepeat: "round" }}
@@ -208,7 +208,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             {
-              items.map((item, i) => <div
+             modules.filter((f,i)=>i<=5).map((item, i) => <div
                 key={item.title}
               >
                 <div
@@ -259,7 +259,7 @@ export default function Home() {
           </div>
           <div className="pb-3 pt-10 flex justify-center">
             <Link
-              href="/learn"
+              href="/marketplace"
               className="flex justify-center items-center space-x-3 md:w-[250px] rounded-full hover:bg-blue-600 bg-[#007aff] md:text-lg text-white px-4 py-3"
             >
               <span>See all modules</span>
