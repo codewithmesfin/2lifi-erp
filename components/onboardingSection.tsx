@@ -35,7 +35,7 @@ export default function OnboardingSection() {
               target="_blank"
               className="py-3 px-3 bg-[#007aff] text-sm text-white rounded-md hover:bg-blue-600 flex justify-center items-center space-x-2"
             >
-              <span>Book a meeting</span>
+              <span>Get started today</span>
               <ChevronRightIcon className='w-4 h-4'  />
             </Link>
           </div>

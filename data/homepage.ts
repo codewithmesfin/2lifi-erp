@@ -71,6 +71,7 @@ const cards = [
 ];
 const modules = [
   {
+    free:true,
     developer: "ERPNext",
     name: "SupplyChain",
     href: "/learn/supply-chain",
@@ -82,7 +83,7 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/still-life-supply-chain-representation_23-2149827264.jpg?t=st=1717175410~exp=1717179010~hmac=8c6e15c350c7b19f68522bd34a06dacd669a43d00a1796d35d385e5b998eeb9d&w=1800",
   },
-  {
+  { free:true,
     developer: "ERPNext",
     name: "Accounting",
     href: "/learn/accounting",
@@ -95,7 +96,7 @@ const modules = [
       "https://img.freepik.com/free-photo/flat-lay-business-concept_53876-24738.jpg?t=st=1717176947~exp=1717180547~hmac=d53773b4e5b4a5aab00abef268cd020bc8942431fde5268734d1cececa199a71&w=2000",
   },
 
-  {
+  { free:true,
     developer: "ERPNext",
     name: "Inventory",
     href: "/learn/stock",
@@ -106,7 +107,7 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/african-american-worker-writing-inventory-list-while-checking-stock-storage-room_637285-4716.jpg?t=st=1717176978~exp=1717180578~hmac=fc4bf2d9a36cc11b7bfe784dac6fb67fa429a1e466bab0dd555c262d12065b27&w=1800",
   },
-  {
+  { free:true,
     developer: "ERPNext",
     name: "Buying",
     href: "/learn/buying",
@@ -118,7 +119,7 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/handshake-man-woman-after-signing-business-contract-closeup_1163-5133.jpg?t=st=1717177274~exp=1717180874~hmac=ea883a1e7b36e97cb858ba71a732f7bb6b490fbf46a2a301cb896e1896acc6a5&w=1800",
   },
-  {
+  { free:true,
     developer: "ERPNext",
     name: "Selling",
     href: "/learn/selling",
@@ -130,7 +131,7 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/house-key-home-insurance-broker-agent-s-hand-protection_1150-14910.jpg?t=st=1717177390~exp=1717180990~hmac=15cdf96635326ca7fdb2bfffd2fcdce178b9236db1c8f5114b007d66dcbc4367&w=2000",
   },
-  {
+  { free:false,
     developer: "Code with Mesfin",
     name: "BI",
     href: "/learn/bi",
@@ -142,7 +143,7 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/business-scene-top-view-with-laptop_23-2147626519.jpg?t=st=1717176004~exp=1717179604~hmac=34e955c788df52409ea36ce27d4f6ea99e4f8be7dd5aebef04553c147f9d1eda&w=1800",
   },
-  {
+  { free:false,
     developer: "Code with Mesfin",
     name: "CRM",
     image: "https://nestorbird.com/assets/images/Erpimg8.webp",
@@ -153,8 +154,8 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/businesspeople-working-finance-accounting-analyze-financi_74952-1399.jpg?t=st=1717182069~exp=1717185669~hmac=36c1e2c472b605fb2541c7db691dcae04186182792a40fac5bdbcf6c9d1627c2&w=1800",
   },
-  {
-    developer: "Frappe",
+  { free:false,
+    developer: "Code with Mesfin",
     name: "Collaboration",
     image: "https://frappecloud.com/files/ravicon.png",
     title: "Collaboration & Communication",
@@ -163,7 +164,7 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/hands-holding-puzzle-business-problem-solving-concept_53876-143285.jpg?t=st=1717182163~exp=1717185763~hmac=2adae7c9ab6c3355939956ff3be116f176c7dcb682a777248f2bc8bf0643fe35&w=1800",
   },
-  {
+  { free:true,
     developer: "Frappe",
     name: "Education",
     image: "https://frappecloud.com/files/lms-logo.png",
@@ -173,7 +174,7 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/kids-celebrating-kindergarten-graduation_23-2149371600.jpg?t=st=1717182294~exp=1717185894~hmac=d2ba4a82b7f038c80f41a3eed7005f505ab3cd60e0ff801407b5de75da8f9046&w=1800",
   },
-  {
+  { free:true,
     developer: "ERPNext",
     name: "Manufacturing",
     image:
@@ -184,7 +185,7 @@ const modules = [
     banner:
       "https://img.freepik.com/free-photo/factory-workshop-interior-machines-glass-production-background_645730-396.jpg?t=st=1717182343~exp=1717185943~hmac=e95bf22de8ecd3c17518582b6e60128197da04e900fd94941704c0b68d5ba24b&w=1800",
   },
-  {
+  { free:true,
     developer: "ERPNext",
     name: "Quality",
     image:
@@ -194,7 +195,7 @@ const modules = [
       "Facilitate robust quality control procedures within the manufacturing process.",
       banner:"https://img.freepik.com/free-vector/product-quality-concept-illustration_114360-7301.jpg?t=st=1717182424~exp=1717186024~hmac=d9201f7496c7763afb086dbba548dc2994aa60d21d0d8db12fb101d25366fdb7&w=1380"
   },
-  {
+  { free:false,
     developer:"Frappe",
     name: "HRMS",
     image:
@@ -204,7 +205,8 @@ const modules = [
       "Open Source, modern, and easy-to-use HR and Payroll Software for all organizations.",
       banner:"https://img.freepik.com/free-photo/medium-shot-woman-working-laptop_23-2149300643.jpg?t=st=1717182471~exp=1717186071~hmac=18ebb8234850f30636c891b5ecea3299c8c392b304540401d6a4f384749936f9&w=1800"
   },
-  {developer:"ERPNext",
+  { free:true,
+    developer:"ERPNext",
     name: "Healthcare",
     image:
       "https://img.freepik.com/free-vector/flat-design-medical-pharmacy-symbol_23-2149542018.jpg?t=st=1715623409~exp=1715627009~hmac=7c5973d3ec904f3e634166bc39163f105bf33200b72bfbbf8d1416a2abfc907c&w=1380",
@@ -214,7 +216,7 @@ const modules = [
       banner:"https://img.freepik.com/free-photo/clean-empty-hospital-ward-ready-receive-patients-reflecting-modern-medical-care_91128-4460.jpg?t=st=1717182526~exp=1717186126~hmac=0bd00ff18733c1b9a1dca1f0bab82191637658dceccb10001b476e0c54a0eebe&w=1800"
   },
 
-  {
+  { free:true,
     developer:"ERPNext",
     name: "Project",
     href: "/learn/project",
@@ -224,7 +226,9 @@ const modules = [
       "Design, organize, schedule & analyze task to improve tracking accountability.",
       banner:"https://img.freepik.com/free-photo/business-people-meeting_53876-13581.jpg?t=st=1717182591~exp=1717186191~hmac=9fa4ee82693681f5ffa659091b8434d3596b2f968ab9acb2e6bc99c727e4d380&w=1380"
   },
-  {developer:"ERPNext",
+  {
+    free:true,
+    developer:"ERPNext",
     name: "HelpDesk",
     image: "https://erpnext.com/files/Support.svg",
     title: "Help Desk",
