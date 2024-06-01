@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 
-import Link from "next/link";
-import {ChevronRightIcon, CodeBracketIcon } from "@heroicons/react/24/outline";
 import { modules } from "@/data/homepage";
 import OnboardingSection from "@/components/onboardingSection";
 import { useRouter } from "next/router";
@@ -10,7 +8,7 @@ import ProductCard from "@/components/productCard";
 
 
 export default function Home() {
-    const navigator = useRouter()
+
 
     return (
         <div>
