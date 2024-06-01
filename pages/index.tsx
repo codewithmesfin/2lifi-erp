@@ -1,12 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 
 import Link from "next/link";
-import { ArrowTopRightOnSquareIcon, ChevronRightIcon, CodeBracketIcon } from "@heroicons/react/24/outline";
+import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { cards, modules, options, techStacks } from "@/data/homepage";
 import OnboardingSection from "@/components/onboardingSection";
-import { useRouter } from "next/router";
 import ProductCard from "@/components/productCard";
-
 
 
 export default function Home() {
