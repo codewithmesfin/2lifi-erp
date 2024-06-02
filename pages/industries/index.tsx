@@ -3,6 +3,7 @@
 import OnboardingSection from "@/components/onboardingSection";
 import Healthcare from "./components/Healthcare";
 import Education from "./components/Education";
+import Manufacturing from "./components/Manufacturing";
 
 
 
