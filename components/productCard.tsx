@@ -17,7 +17,7 @@ export default function ProductCard({item,index}:any) {
     <div>
       <div>
         <div className="text-sm text-white rounded-tr-xl rounded-bl-lg absolute flex justify-center items-center w-16 h-10 right-0 p-4 bg-gradient-to-r from-blue-400  to-green-400">
-         {item.free?'FREE':"PAID"}
+         {item.free?'FREE':"PRO"}
         </div>
         <div className="h-full md:h-[300px] w-full">
           <img src={item.banner} alt="" className="object-cover rounded-t-xl w-full h-full" />

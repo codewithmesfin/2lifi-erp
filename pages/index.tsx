@@ -29,7 +29,6 @@ export default function Home() {
                 stress.
               </h2>
               <div className="py-6 flex space-x-5 md:space-x-10">
-
                 <Link
                   href="/login#login"
                   className=" flex justify-evenly items-center space-x-3 md:w-[250px] rounded-full bg-gradient-to-r from-blue-400 via-blue-500 to-blue-300 hover:from-blue-500 hover:to-green-100 md:text-lg text-white px-4 py-3"

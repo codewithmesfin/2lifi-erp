@@ -1,12 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { modules } from "@/data/homepage";
 import OnboardingSection from "@/components/onboardingSection";
-import ProductCard from "@/components/productCard";
+import Manufacturing from "./components/manufacturing";
+import Healthcare from "./components/Healthcare";
+import Education from "./components/Education";
 
 
 
-export default function Marketplace() {
+
+export default function Industries() {
 
 
     return (
@@ -20,7 +22,7 @@ export default function Marketplace() {
                                 style={{ lineHeight: 1.2 }}
                                 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-[#007aff] to-green-600 inline-block text-transparent bg-clip-text"
                             >
-                                All-in-one Enterprise Software
+                                Target Industries
                             </h1>
                             <h2 className="py-6 text-gray-800 text-lg md:text-2xl">
                                 Explore and choose a Module. Don’t worry, you can always switch it later.
@@ -36,19 +38,25 @@ export default function Marketplace() {
             </section>
 
             <section className="border-b-4 border-gray-100">
-                <div className="w-[90%] mx-auto py-10">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
-                        {
-                            modules.map((item, i) => <div
-                                key={item.title}
-                            >
-                              <ProductCard item={item} index={i} />
-                            </div>)
-                        }
-                    </div>
+                <div className="w-[90%] mx-auto py-5 md:py-10">
+                    <Manufacturing />
+
                 </div>
             </section>
 
+
+            <section className="border-b-4 border-gray-100">
+                <div className="w-[90%] mx-auto py-5 md:py-10">
+                    <Healthcare />
+                </div>
+            </section>
+
+            <section className="border-b-4 border-gray-100">
+                <div className="w-[90%] mx-auto py-5 md:py-10">
+                    <Education />
+
+                </div>
+            </section>
 
 
             <OnboardingSection />
