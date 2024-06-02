@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
 import OnboardingSection from "@/components/onboardingSection";
-import Manufacturing from "./components/manufacturing";
 import Healthcare from "./components/Healthcare";
 import Education from "./components/Education";
 
