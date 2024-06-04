@@ -33,17 +33,63 @@ const healthcareItems = [
     ],
   },
   {
-    title:"General Benefits",
-    children:[
-        'Easy Appointment','Patient Portal','Time-Saving'
-    ]
-  }
+    title: "General Benefits",
+    children: ["Easy Appointment", "Patient Portal", "Time-Saving"],
+  },
 ];
 
-const educationItems=[
-"Program","Course","Topic","Instructor",'Admission','Enrollment',
-'Room','Student','Student Category','Academic term','Academic year',
-'Guardian','Settings','Fee','Course Schedule','Attendance','Assessment',
-'Reports'
-]
-export { manufacturingItems, healthcareItems,educationItems };
+const educationItems = [
+  "Program",
+  "Course",
+  "Topic",
+  "Instructor",
+  "Admission",
+  "Enrollment",
+  "Room",
+  "Student",
+  "Student Category",
+  "Academic term",
+  "Academic year",
+  "Guardian",
+  "Settings",
+  "Fee",
+  "Course Schedule",
+  "Attendance",
+  "Assessment",
+  "Reports",
+];
+
+const agricultureItems = [
+  "Land Management",
+  "Crop Management",
+  "Plant Health Tracking",
+  "Soil Analysis",
+  "Water Management",
+  "Weather Tracking",
+  "Resource Management",
+  "Labor Management",
+  "Harvest Management",
+  "Reporting",
+  "Forecasting",
+];
+const importExports = [
+  "Quotation",
+  "Suppliers",
+  "Supply chain",
+  "Procurement",
+  "Logistics",
+  "Customer relationship",
+  "Sales",
+  "Accounting",
+  "Distribution",
+  "Warehouse",
+  "Inventories",
+  "Reports",
+];
+export {
+  manufacturingItems,
+  healthcareItems,
+  educationItems,
+  agricultureItems,
+  importExports,
+};

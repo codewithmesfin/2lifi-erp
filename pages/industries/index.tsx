@@ -4,6 +4,9 @@ import OnboardingSection from "@/components/onboardingSection";
 import Healthcare from "./components/Healthcare";
 import Education from "./components/Education";
 import Manufacturing from "./components/Manufacturing";
+import Agriculture from "./components/Agriculture";
+import importExport from "./components/ImportExport";
+import ImportExport from "./components/ImportExport";
 
 
 
@@ -55,6 +58,18 @@ export default function Industries() {
                 <div className="w-[90%] mx-auto py-5 md:py-10">
                     <Education />
 
+                </div>
+            </section>
+
+            <section className="border-b-4 border-gray-100">
+                <div className="w-[90%] mx-auto py-5 md:py-10">
+                    <Agriculture />
+                </div>
+            </section>
+
+            <section className="border-b-4 border-gray-100">
+                <div className="w-[90%] mx-auto py-5 md:py-10">
+                    <ImportExport />
                 </div>
             </section>
 

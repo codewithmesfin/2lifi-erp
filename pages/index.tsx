@@ -38,7 +38,7 @@ export default function Home() {
                 </Link>
                 <Link
                   target="_blank"
-                  href="https://calendly.com/techethio/elerp"
+                  href="https://calendly.com/mesfin-tsegaye/codewithmesfin"
                   className="flex justify-evenly items-center space-x-3 md:w-[250px] rounded-full bg-gradient-to-r from-green-300 to-green-300 hover:from-blue-300 hover:to-green-300 md:text-lg text-white px-4 py-3"
                 >
                   <span>Learn more</span>

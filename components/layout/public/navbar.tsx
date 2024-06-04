@@ -59,7 +59,7 @@ export default function PublicNavbar() {
           <div className="flex items-center space-x-5 md:space-x-1">
             <Link
               target="_blank"
-              href="https://calendly.com/techethio/elerp"
+              href="https://calendly.com/mesfin-tsegaye/codewithmesfin"
               className="flex items-center justify-center space-x-3 bg-gray-900 text-sm px-6 text-gray-200 py-3  rounded-lg shadow"
             ><span>Try for free</span>
               <ArrowRightIcon className="h-4 w-4" aria-hidden="true" />
