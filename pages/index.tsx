@@ -22,7 +22,7 @@ export default function Home() {
                 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-[#007aff] to-green-600 inline-block text-transparent bg-clip-text"
               >
                 Find the perfect <br />
-                ERP for you.
+                Software for you.
               </h1>
               <h2 className="py-6 text-[#333333] text-lg md:text-3xl">
                 Automate your tasks, increase productivity, and work without
@@ -31,7 +31,7 @@ export default function Home() {
               <div className="py-6 flex space-x-5 md:space-x-10">
                 <Link
                   href="/login#login"
-                  className=" flex justify-evenly items-center space-x-3 md:w-[250px] rounded-full bg-gradient-to-r from-blue-400 via-blue-500 to-blue-300 hover:from-blue-500 hover:to-green-100 md:text-lg text-white px-4 py-3"
+                  className=" flex justify-evenly items-center space-x-3 md:w-[250px] rounded-full bg-gradient-to-r from-blue-400 via-blue-600 to-blue-400 hover:from-gray-500 hover:to-green-500 md:text-lg text-white px-4 py-3"
                 >
                   <span>Get started</span>
                   <ChevronRightIcon path="right" className="h-4 w-4" strokeWidth={2} />
@@ -39,7 +39,7 @@ export default function Home() {
                 <Link
                   target="_blank"
                   href="https://calendly.com/mesfin-tsegaye/codewithmesfin"
-                  className="flex justify-evenly items-center space-x-3 md:w-[250px] rounded-full bg-gradient-to-r from-green-300 to-green-300 hover:from-blue-300 hover:to-green-300 md:text-lg text-white px-4 py-3"
+                  className="flex justify-evenly items-center space-x-3 md:w-[250px] rounded-full bg-gradient-to-r from-green-300 to-green-300 hover:from-orange-500 hover:to-blue-500 md:text-lg text-white px-4 py-3"
                 >
                   <span>Learn more</span>
                   <ChevronRightIcon path="right" className="h-4 w-4" strokeWidth={2} />
@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="pb-5">
                   <h1 className="text-gray-600">
                     If you believe you need <span className="font-semibold italic">all-in-one enterprise solutions </span> for your organization,
-                    <span className="text-[#007aff] px-1">2lifi</span> will be your choice.
+                    <span className="text-[#007aff] px-1">2lify</span> will be your choice.
                   </h1>
                 </div>
                 <form>
@@ -245,7 +245,7 @@ export default function Home() {
             <p className="py-10 text-center text-sm md:text-lg text-gray-900">
               Customers are the main valuable assets for every business of any
               size. Unlock your business opportunities by making interactive
-              relationship within your hunted customers. 2lifi is CRM tool for
+              relationship within your hunted customers. 2lify is CRM tool for
               managing your customers relationship within your business.
               <Link className="text-[#007aff]" href="/features"
               >Learn more</Link
@@ -286,7 +286,7 @@ export default function Home() {
                 represent the best version of you and your business. This is the
                 glue that allows you to interface with the hotel, seating,
                 guestlist, all in one place without having to hire someone just
-                to do that. I was so impressed I personally invested in 2lifi!
+                to do that. I was so impressed I personally invested in 2lify!
               </p>
             </div>
             <div
@@ -310,7 +310,7 @@ export default function Home() {
             <h1
               className="py-4 text-center text-3xl md:text-6xl font-extrabold text-gray-900"
             >
-              Technologies behind 2lifi
+              Technologies behind 2lify
             </h1>
           </div>
           <div
