@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -16,6 +17,14 @@ export default function Home() {
                 <div className="w-[90%] mx-auto pt-32">
                     <div className="">
                         <div className="w-full">
+                            <div className="mx-auto w-32 mb-5">
+                                <Image
+                                    className="h-32 w-32 w-auto"
+                                    src="/logo.png"
+                                    alt=""
+                                    height={50} width={50}
+                                />
+                            </div>
                             <h1
                                 style={{ lineHeight: 1.2 }}
                                 className="text-5xl md:text-8xl font-extrabold bg-gradient-to-r from-orange-600 to-green-600 text-center text-transparent bg-clip-text"

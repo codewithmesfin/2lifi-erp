@@ -40,7 +40,7 @@ export default function Industries() {
 
             </section>
 
-            <section className="border-b-4 border-gray-100">
+            <section >
                 <div className="w-[90%] mx-auto py-5 md:py-10">
                     <Manufacturing />
 
@@ -48,33 +48,36 @@ export default function Industries() {
             </section>
 
 
-            <section className="border-b-4 border-gray-100">
+            <section >
                 <div className="w-[90%] mx-auto py-5 md:py-10">
                     <Healthcare />
                 </div>
             </section>
 
-            <section className="border-b-4 border-gray-100">
+            <section >
                 <div className="w-[90%] mx-auto py-5 md:py-10">
                     <Education />
 
                 </div>
             </section>
 
-            <section className="border-b-4 border-gray-100">
+            <section >
                 <div className="w-[90%] mx-auto py-5 md:py-10">
                     <Agriculture />
                 </div>
             </section>
 
-            <section className="border-b-4 border-gray-100">
+            <section >
                 <div className="w-[90%] mx-auto py-5 md:py-10">
                     <ImportExport />
                 </div>
             </section>
 
+            <div className="border-t-4 border-gray-100">
+                <OnboardingSection />
+            </div>
 
-            <OnboardingSection />
+
 
         </div>
     );

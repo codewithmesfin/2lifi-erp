@@ -18,7 +18,7 @@ export default function ImportExport() {
                         style={{ lineHeight: 1.2 }}
                         className="text-2xl md:text-5xl font-extrabold bg-gradient-to-r from-[#007aff] to-green-600 inline-block text-transparent bg-clip-text"
                     >
-                        4. Import/Export company
+                        4. Import/Export Company
                     </h1>
                     <p className="text-lg md:text-xl py-3 text-gray-600">
                         ERPNext can be a valuable tool for import and export companies by

@@ -11,15 +11,15 @@ export default function OnboardingSection() {
         <div 
         data-aos="fade-up"
                 data-aos-duration="2000"
-                 className="w-full md:w-1/3 py-10 md:py-1">
+                 className="w-full md:w-1/3 h-full py-10 md:py-1">
           <img
-            src="https://framerusercontent.com/images/LK7ZsZaxzvr3h6LVN45Zz7Ydjc.png?scale-down-to=512"
+            src="https://img.freepik.com/free-vector/racism-illustration-concept_52683-41365.jpg?t=st=1717566507~exp=1717570107~hmac=68521175ea6d72d0447c342333f5814202f5fb8ded127bfbca2013508a05c875&w=1800"
             alt="calendly"
-            className="h-full w-full"
+            className="h-full w-full rounded-xl border"
           />
         </div>
         <div data-aos="fade-down"
-                data-aos-duration="1000" className="w-full md:w-1/3">
+                data-aos-duration="1000" className="w-full md:w-1/3 h-full">
           <h1 className="text-5xl md:text-6xl font-bold text-center">
             Don’t be late
           </h1>
@@ -41,11 +41,11 @@ export default function OnboardingSection() {
           </div>
         </div>
         <div data-aos="fade-up"
-                data-aos-duration="2000" className="w-full md:w-1/3 py-10 md:py-1">
+                data-aos-duration="2000" className="w-full md:w-1/3 h-full py-10 md:py-1">
           <img
-            src="https://framerusercontent.com/images/KVIl358mWR8bRB7uBojfiFI.png?scale-down-to=512"
+            src="https://img.freepik.com/free-vector/pitch-meeting-concept-illustration_114360-6000.jpg?t=st=1717566687~exp=1717570287~hmac=0f8408f0ed3d46d6714992333dc81fe4616775cc6877f8a42678c26737b21a28&w=1800"
             alt="calendly"
-            className="h-full w-full"
+            className="h-full w-full rounded-xl border"
           />
         </div>
       </div>
