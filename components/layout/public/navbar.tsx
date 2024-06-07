@@ -41,7 +41,7 @@ export default function PublicNavbar() {
                   height={50} width={50}
                 />
                 <span className="bg-gradient-to-r from-[#007aff] to-green-600 inline-block text-transparent bg-clip-text font-extrabold">
-                  2lify</span
+                Solviko</span
                 >
               </Link>
             </div>
@@ -86,7 +86,7 @@ export default function PublicNavbar() {
                   height={50} width={50}
                 />
                 <span className="bg-gradient-to-r from-[#007aff] to-green-600 inline-block text-transparent bg-clip-text font-extrabold">
-                  2lify</span
+                  Solviko</span
                 >
               </Link>
               <button

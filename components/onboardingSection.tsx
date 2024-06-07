@@ -24,8 +24,8 @@ export default function OnboardingSection() {
             Don’t be late
           </h1>
           <p className="py-4 text-center text-gray-800 text-sm md:text-md">
-            Ready to meet with 2lify team? Click the button below to access
-            {"2lify's"} Calendly and choose a time that works best for you. Once
+            Ready to meet with Solviko team? Click the button below to access
+            {"Solviko's"} Calendly and choose a time that works best for you. Once
             {"you've"} selected a date and time, {"you'll"} be all set for your meeting.
           </p>
           <div className="md:flex md:justify-center">

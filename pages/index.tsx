@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="pb-5">
                   <h1 className="text-gray-600">
                     If you believe you need <span className="font-semibold italic">all-in-one enterprise solutions </span> for your organization,
-                    <span className="text-[#007aff] px-1">2lify</span> will be your choice.
+                    <span className="text-[#007aff] px-1">Solviko</span> will be your choice.
                   </h1>
                 </div>
                 <form>
@@ -245,7 +245,7 @@ export default function Home() {
             <p className="py-10 text-center text-sm md:text-lg text-gray-900">
               Customers are the main valuable assets for every business of any
               size. Unlock your business opportunities by making interactive
-              relationship within your hunted customers. 2lify is CRM tool for
+              relationship within your hunted customers. Solviko is CRM tool for
               managing your customers relationship within your business.
               <Link className="text-[#007aff]" href="/features"
               >Learn more</Link
@@ -286,7 +286,7 @@ export default function Home() {
                 represent the best version of you and your business. This is the
                 glue that allows you to interface with the hotel, seating,
                 guestlist, all in one place without having to hire someone just
-                to do that. I was so impressed I personally invested in 2lify!
+                to do that. I was so impressed I personally invested in Solviko!
               </p>
             </div>
             <div
@@ -310,7 +310,7 @@ export default function Home() {
             <h1
               className="py-4 text-center text-3xl md:text-6xl font-extrabold text-gray-900"
             >
-              Technologies behind 2lify
+              Technologies behind Solviko
             </h1>
           </div>
           <div
