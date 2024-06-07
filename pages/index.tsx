@@ -5,6 +5,7 @@ import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from "@heroicons/react/24
 import { cards, modules, options, techStacks } from "@/data/homepage";
 import OnboardingSection from "@/components/onboardingSection";
 import ProductCard from "@/components/productCard";
+import LeadCapture from "@/components/leadCapture";
 
 
 export default function Home() {
@@ -54,48 +55,7 @@ export default function Home() {
                     <span className="text-[#007aff] px-1">Solviko</span> will be your choice.
                   </h1>
                 </div>
-                <form>
-                  <div className="pb-2">
-                    <p className="py-2 text-gray-500">Full Name</p>
-                    <input
-                      type="text"
-                      placeholder="Enter your name"
-                      required={true}
-                      v-model="formData.fullname"
-                      className="w-full py-2 rounded px-3 bg-white border border-gray-200 text-gray-400 focus:outline-none"
-                    />
-                  </div>
-                  <div className="py-3">
-                    <p className="py-2 text-gray-500">Email</p>
-                    <input
-                      type="email"
-                      placeholder="Enter your email"
-                      required={true}
-                      v-model="formData.email"
-                      className="w-full py-2 rounded px-3 bg-white border border-gray-200 text-gray-400 focus:outline-none"
-                    />
-                  </div>
-                  <div className="py-3">
-                    <p className="py-2 text-gray-500">Phone Number</p>
-                    <input
-                      type="text"
-                      pattern="^\+[1-9]\d{1,14}$"
-                      placeholder="Enter your phone number"
-                      required={true}
-                      v-model="formData.phonenumber"
-                      className="w-full py-2 rounded px-3 bg-white border border-gray-200 text-gray-400 focus:outline-none"
-                    />
-                  </div>
-                  <div className="pt-3">
-                    <button
-                      type="submit"
-                      className="flex items-center justify-evenly space-x-3 md:text-lg w-full bg-[#007aff] hover:bg-blue-600 py-3 rounded-full shadow text-white"
-                    >
-                      <span>Schedule for a demo</span>
-                      <ChevronRightIcon path="right" className="h-4 w-4" strokeWidth={2} />
-                    </button>
-                  </div>
-                </form>
+                <LeadCapture />
               </div>
             </div>
             <div>
@@ -206,10 +166,10 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             {
-             modules.filter((f,i)=>i<=5).map((item, i) => <div
+              modules.filter((f, i) => i <= 5).map((item, i) => <div
                 key={item.title}
               >
-               <ProductCard item={item} index={i} />
+                <ProductCard item={item} index={i} />
               </div>)
             }
           </div>
